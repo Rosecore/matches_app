@@ -1,0 +1,25 @@
+.status {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 4px;
+  width: 92px;
+  height: 27px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  justify-content: center;
+
+  &.Ongoing {
+    background-color: #43ad28;
+  }
+
+  &.Finished {
+    background-color: #eb0237;
+  }
+
+  &.Scheduled {
+    width: 112px;
+    background-color: #eb6402;
+  }
+}
